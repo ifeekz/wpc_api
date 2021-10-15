@@ -38,7 +38,7 @@ Dependencies (will be installed on step 6 in next section):
 To use the application follow these instructions:
 
 - Run `python manage.py runserver` to start the server
-- To create cycles, use this endpoint using tool like postman:
+- To create cycles, use this endpoint using any endpoint testing tool like postman:
 
     POST: `http://localhost:8000/womens-health/api/create-cycles`
 
@@ -65,4 +65,4 @@ To use the application follow these instructions:
       {date: '2021-01-19'}
 
 ## Running the tests
-Run `python manage.py test` to run the tests
+Quit the server (`Ctrl + C` or `Cmd +C`) and run `python manage.py test` to run the tests
