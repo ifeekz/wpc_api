@@ -18,7 +18,7 @@ Dependencies (will be installed on step 6 in next section):
 3. Run `cd wpc_api` to get into the project directory.
 4. Run `python -m venv wpc_venv` to create a virtal environment
 5. Run `wpc_venv\Scripts\activate` to activate the virtal environment
-6. Run `python -m pip install --upgrade pip` or `python -m pip install -U --force-reinstall pip` to install or upgrade pip
+6. Run `python -m pip install --upgrade pip` to install or upgrade pip
 7. Run `pip install -r requirements.txt` to install dependencies
 8. Run `copy .env.example .env` to copy the environment wariables
 9. Run `python manage.py migrate` to setup DB migrations
@@ -29,7 +29,7 @@ Dependencies (will be installed on step 6 in next section):
 3. Run `cd wpc_api` to get into the project directory.
 4. Run `python3 -m venv wpc_venv` to create a virtal environment
 5. Run `source wpc_venv\Scripts\activate` or `. wpc_venv\Scripts\activate` to activate the virtual environment
-6. Run `python -m pip install --upgrade pip` to install or upgrade pip
+6. Run `python -m pip install --upgrade pip` or `python -m pip install -U --force-reinstall pip` to install or upgrade pip
 7. Run `pip install -r requirements.txt` to install dependencies
 8. Run `copy .env.example .env` to copy the environment wariables
 9. Run `python manage.py migrate` to setup DB migrations
