@@ -28,18 +28,18 @@ To use the application follow these instructions:
     POST: `http://localhost:8000/womens-health/api/create-cycles`
     Header: `Accept: application/json`
     Body (sample): 
-        `{
+        ```{
             "last_period_date": "2020-06-20",
             "cycle_average": 25,
             "period_average": 5,
             "start_date": "2020-07-25",
             "end_date": "2021-07-25"
-        }`
+        }```
 - To get cycle event for a date use
     GET: `http://localhost:8000/womens-health/api/cycle-event`
     Header: `Accept: application/json`
     Query Parameters (sample):
-      `{date: '2021-01-19'}` 
+      ```{date: '2021-01-19'}``` 
 
 ## Running the tests
 Run `python manage.py test` to run the tests
