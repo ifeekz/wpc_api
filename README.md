@@ -1,4 +1,4 @@
-# Women's Period Cycle (WPC)
+# Women's Period Cycle (WPC) API
 
 A REST API that helps estimate a woman’s period cycles within a specific timeframe and also determine what period of her monthly cycle a lady is currently in.
 
@@ -17,6 +17,7 @@ Dependencies (will be installed on step 6 in next section):
 3. Run `cd wpc_api` to get into the project directory.
 4. Run `python -m venv wpc_venv` to create a virtal environment
 5. Run `wpc_venv\Scripts\activate` to activate the virtal environment
+6. Run `python -m pip install --upgrade pip` to install or upgrade pip
 6. Run `pip install -r requirements.txt` to install dependencies
 7. Run `python manage.py migrate` to setup DB migrations
 
