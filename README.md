@@ -12,14 +12,27 @@ Dependencies (will be installed on step 6 in next section):
 * django-environ==0.7.0
 
 ## Installation & Setup
+### Windows
 1. Open a terminal and `cd` into the directory you want to clone this repository.
 2. Run `git clone https://github.com/ifeekz/wpc_api.git` to clone this project.
 3. Run `cd wpc_api` to get into the project directory.
 4. Run `python -m venv wpc_venv` to create a virtal environment
 5. Run `wpc_venv\Scripts\activate` to activate the virtal environment
+6. Run `python -m pip install --upgrade pip` or `python -m pip install -U --force-reinstall pip` to install or upgrade pip
+7. Run `pip install -r requirements.txt` to install dependencies
+8. Run `copy .env.example .env` to copy the environment wariables
+9. Run `python manage.py migrate` to setup DB migrations
+
+### Linux and OS X
+1. Open a terminal and `cd` into the directory you want to clone this repository.
+2. Run `git clone https://github.com/ifeekz/wpc_api.git` to clone this project.
+3. Run `cd wpc_api` to get into the project directory.
+4. Run `python3 -m venv wpc_venv` to create a virtal environment
+5. Run `source wpc_venv\Scripts\activate` or `. wpc_venv\Scripts\activate` to activate the virtual environment
 6. Run `python -m pip install --upgrade pip` to install or upgrade pip
-6. Run `pip install -r requirements.txt` to install dependencies
-7. Run `python manage.py migrate` to setup DB migrations
+7. Run `pip install -r requirements.txt` to install dependencies
+8. Run `copy .env.example .env` to copy the environment wariables
+9. Run `python manage.py migrate` to setup DB migrations
 
 ## Usage
 To use the application follow these instructions:
